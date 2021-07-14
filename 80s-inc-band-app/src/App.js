@@ -5,6 +5,7 @@ import Navigation from "./components/Navigation";
 // import Projects from "./components/Projects";
 import Aboutus from "./components/Aboutus";
 import Container from 'react-bootstrap/Container';
+import Photos from "./components/Carousel";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
     <Navigation />
     <Header />
     <Aboutus />
+    <br />
+    <br />
+    <Photos />
     </Container>
   );
 }
